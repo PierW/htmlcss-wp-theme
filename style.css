@@ -18,7 +18,7 @@ header  h1,h4{
   font-weight: normal;
 }
 
-nav {
+nav, footer {
   background-color: #643d25;
   height: 35px;
 }
@@ -50,18 +50,43 @@ button:hover{
   color: white;
 }
 
+main > div{
+  float: left;
+  padding: 30px;
+  background-color: white;
+  height: 100%;
+  border-radius: 2%;
+}
+
 /* ID */
 
-#container {
+#main-top {
+  padding: 10px;
   width: 80vw;
   background-color: white;
   margin: auto;
 }
 
+#main-center{
+  width: 80vw;
+  height: 80vh;
+  margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
+#copyright{
+  color: white;
+  text-align: center;
+  line-height: 35px;
+  margin-bottom: 20px;
+}
+
 /* CLASSI */
 
-.main-top {
-  padding: 10px;
+.container {
+  width: 80vw;
+  margin: auto;
 }
 
 .title {
@@ -81,4 +106,24 @@ button:hover{
   content: "";
   display: table;
   clear: both;
+}
+
+
+#main-center:after{
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.col-left {
+  width: 20%;
+}
+
+.col-right {
+  width: 20%;
+}
+
+.col-center {
+  width: 55%;
+  margin: 0 2.5%;
 }
