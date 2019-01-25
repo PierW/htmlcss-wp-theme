@@ -1,5 +1,4 @@
 /* GLOBALI */
-
 *{
   box-sizing: border-box;
   margin: 0;
@@ -61,7 +60,7 @@ main > div{
 /* ID */
 
 #main-top {
-  padding: 10px;
+  border: 10px solid white;
   width: 80vw;
   background-color: white;
   margin: auto;
